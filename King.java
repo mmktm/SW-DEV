@@ -9,7 +9,7 @@ public class King extends ChessPiece {
 
 	@Override
 	void printPiece() {
-		System.out.print("K ");
+		System.out.print((this.color == 0) ? "k " : "K ");
 		
 	}
 
@@ -21,7 +21,7 @@ public class King extends ChessPiece {
 	@Override
 	boolean isValidMove(ChessBoard board, int row, int col) {
 		
-		return false;
+		return true;
 	}
 
 }
