@@ -8,7 +8,7 @@ public class Queen extends ChessPiece {
 
 	@Override
 	void printPiece() {
-		System.out.print("Q ");
+		System.out.print((this.color == 0) ? "q " : "Q ");
 		
 	}
 
@@ -19,7 +19,7 @@ public class Queen extends ChessPiece {
 
 	@Override
 	boolean isValidMove(ChessBoard board, int row, int col) {
-		return false;
+		return true;
 	}
 
 }
