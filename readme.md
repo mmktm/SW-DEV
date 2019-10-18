@@ -10,4 +10,12 @@
 
 นาย ภูวนัย จาวยนต์
 
-link trello : https://trello.com/b/fbYjSFUX/sw-dev
+ภาพ Screenshot  :   
+
+คำอธิบายโปรแกรม  :   โปรแกรมเล่นหมากรุก ผู้เล่นสามารถเดินหมากได้โดยการ input ข้อมูลเข้าเพื่อเดินหมาก เช่น ต้องการเดิน Rook ตำแหน่ง a1 ไปยังตำแหน่ง a3                               บนกระดาน ใช้คำสั่ง a1a3
+                    *ตอนนี้เงื่อนไขการเดินของตัวหมากทำได้อยู่ 3 ตัว คือ Bishop, Rook, Queen 
+
+Link trello : https://trello.com/b/fbYjSFUX/sw-dev
+
+Link แหล่งที่มา : ไม่มี
+                มีโค้ดที่คัดลอกมาจากเพื่อนกลุ่ม 2 class Coordinate 
