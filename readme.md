@@ -1,1 +1,8 @@
-https://trello.com/b/fbYjSFUX/sw-dev
+รายชื่อสมาชิก
+นางสาว เกตธามาศ จุมปา
+นางสาว รวิวรรณ วงค์ประเสริฐ
+นางสาว ถิรดา ทิน้อย
+นางสาว ธัญลักษณ์ ปาลี
+นาย ภูวนัย จาวยนต์
+
+link trello : https://trello.com/b/fbYjSFUX/sw-dev
