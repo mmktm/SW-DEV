@@ -25,11 +25,14 @@ public class Bishop extends ChessPiece {
 				return true; // right up
 			if((this.col - i) == col && (this.row + i) == row)
 				return true; // left down	
+			if((this.row + i) == row && (this.col + i) == col)
+				return true; // right down
+			if((this.col - i) == col && (this.row - i) == row)
+				return true; // left up
 		} 
 		
 		System.out.println("Can't Move!");
 		return false;
 	}
-
 	
 }
