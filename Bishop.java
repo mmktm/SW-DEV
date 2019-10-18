@@ -19,7 +19,16 @@ public class Bishop extends ChessPiece {
 
 	@Override
 	boolean isValidMove(ChessBoard board, int row, int col) {
-		return true;
+		for(int i = 0; i < 8; i++) {
+			
+			if((this.row - i) == row && (this.col + i) == col)
+				return true; // right up
+			if((this.col - i) == col && (this.row + i) == row)
+				return true; // left down	
+		} 
+		
+		System.out.println("Can't Move!");
+		return false;
 	}
 
 	
