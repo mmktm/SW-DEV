@@ -19,6 +19,10 @@ public class Rook extends ChessPiece {
 
 	@Override
 	boolean isValidMove(ChessBoard board, int row, int col) {
+		if(this.row != row && this.col != col) {
+			System.out.println("Can't Move!");
+			return false;
+		}
 		return true;
 	}
 	
