@@ -17,5 +17,5 @@
 
 Link trello : https://trello.com/b/fbYjSFUX/sw-dev
 
-Link แหล่งที่มา : ไม่มี
-                มีโค้ดที่คัดลอกมาจากเพื่อนกลุ่ม 2 class Coordinate 
+Link แหล่งที่มา : โค้ด Class Coordinate จากเพื่อนกลุ่ม 2 
+               โค้ดส่วนเงื่อในไขการเดินของ Bishop Rook Queen - https://codereview.stackexchange.com/questions/71790/design-a-chess-game-using-object-oriented-principles?fbclid=IwAR2XgIp6KFyYd6Hhr_uKo_azcjJjoSzl1sLqDhjFpJvBxoZtG-gPTIhmZhQ
