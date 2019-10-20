@@ -68,17 +68,31 @@ public class ChessBoard {
 		return board[row][col];
 	}
 	
-	void printBoard(){
-		
-		for(ChessPiece[] pieceArray : board) {
-			for(ChessPiece piece : pieceArray) {
-				if(piece != null)
-					piece.printPiece();     // polymorphism
+	void printBoard() {
+		//System.out.flush();
+		Integer indexRow = 8, row = 0, col = 0;
+		System.out.println();
+		System.out.println("   A B C D E F G H  ");
+		System.out.println();
+		for (ChessPiece[] pieceArray : board) {
+			System.out.print(indexRow + "  ");
+			for (ChessPiece piece : pieceArray) {
+				if (piece != null)
+					board[row][col].printPiece(); // polymorphism
 				else
 					System.out.print(". ");
+				//System.out.print(row +""+ col + " ");
+				col++;
 			}
+			col = 0;
+			System.out.print("  " + indexRow);
+			row++;
+			indexRow--;
 			System.out.println();
 		}
+		System.out.println();
+		System.out.println("   A B C D E F G H  ");
+		System.out.println();
 	}
 	
 }
