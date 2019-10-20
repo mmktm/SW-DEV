@@ -68,6 +68,7 @@ public class ChessBoard {
 		return board[row][col];
 	}
 	
+	
 	void printBoard() {
 		//System.out.flush();
 		Integer indexRow = 8, row = 0, col = 0;
@@ -94,5 +95,7 @@ public class ChessBoard {
 		System.out.println("   A B C D E F G H  ");
 		System.out.println();
 	}
-	
+
 }
+
+	
